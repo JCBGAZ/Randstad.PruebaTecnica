@@ -1,0 +1,23 @@
+﻿@Randstad.PruebaTecnica.API_HostAddress = https://localhost:7251
+
+GET {{Randstad.PruebaTecnica.API_HostAddress}}/api/product/GetById/0
+
+###
+
+POST {{Randstad.PruebaTecnica.API_HostAddress}}/api/product/Insert
+Content-Type: application/json
+
+{
+  //ProductInsertDTO
+}
+
+###
+
+PUT {{Randstad.PruebaTecnica.API_HostAddress}}/api/product/Update/0
+Content-Type: application/json
+
+{
+  //ProductUpdateDTO
+}
+
+###
